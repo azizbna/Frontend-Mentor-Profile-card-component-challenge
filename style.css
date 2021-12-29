@@ -7,7 +7,6 @@
     --dark-grey: hsl(0, 0%, 59%);
 }
 
-
 html,
 body {
     width: 100%;
@@ -26,21 +25,37 @@ body {
 }
 
 main {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     width: inherit;
     height: calc(100% - 2vh);
     /*Substracted 2vh for the footer*/
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    flex-flow: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-flow: wrap;
+        flex-flow: wrap;
 }
 
 .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
     height: 375px;
     width: 350px;
     background: url(./images/bg-pattern-card.svg) 0 0 no-repeat;
@@ -56,13 +71,22 @@ main {
 }
 
 .info {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 
 
 .personal {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
@@ -90,9 +114,15 @@ p.location {
 }
 
 .bottom-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     text-align: center;
     width: 100%;
     border-top: 1px solid hsl(0, 0%, 93%);
@@ -137,3 +167,9 @@ footer {
         background-size: 100%;
     }
 }
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 2 version
+*/
