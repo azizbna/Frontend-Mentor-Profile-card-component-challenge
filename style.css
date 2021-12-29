@@ -32,15 +32,15 @@ main {
     height: calc(100% - 2vh);
     /*Substracted 2vh for the footer*/
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     -ms-flex-flow: wrap;
-        flex-flow: wrap;
+    flex-flow: wrap;
 }
 
 .container {
@@ -49,13 +49,13 @@ main {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -ms-flex-pack: distribute;
-        justify-content: space-around;
+    justify-content: space-around;
     height: 375px;
     width: 350px;
     background: url(./images/bg-pattern-card.svg) 0 0 no-repeat;
@@ -76,11 +76,11 @@ main {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
 }
 
 
@@ -118,11 +118,11 @@ p.location {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     text-align: center;
     width: 100%;
     border-top: 1px solid hsl(0, 0%, 93%);
